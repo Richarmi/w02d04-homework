@@ -7,3 +7,20 @@ body {
   text-align: center;
   font-family: fantasy;
 }
+
+.hogwartsclasses {
+  align-content: center;
+}
+
+table {
+  border: 1 px solid;
+  text-align: center;
+}
+
+th {
+  border: 1 px solid;
+}
+
+td {
+  border: 1 px solid;
+}
