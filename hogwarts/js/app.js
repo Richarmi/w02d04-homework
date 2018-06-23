@@ -23,37 +23,6 @@ console.log($h2);
 
 $('body').append('<h2>Michael</h2>');
 $('body').append('<h3>Gryffindor</h3>');
-$('body').append('<h4>Bentley</h4>');
+$('body').append('<h4 class="cat">Bentley</h4>');
 
-
-
-
-
-
-
-
-// //const $li = $('<li></li>')
-//
-// // short hand for the above; This is creating an element
-// const $li = $('<li/>');
-//
-// // We want to add a new fruit to the
-// // unordered list in our html on the dom
-// // and we want the fruit called orange
-//
-// // create a new fruit
-// // create a new element
-// const $li2 = $('<span/>')
-// const $li = $('<li/>');
-// // So now lets give the fruit a name
-// // adding text to an html element
-// $li.text('orange');
-//
-// // grab the unordered list (selecting an element)
-// $ul = $('ul');
-//
-// $ul.append($li);
-// $ul.append('<li>Grape</li>');
-//
-// $ul.append('<li>Pear</li>');
-// $ul.append('<li>Tomato</li>');
+$('body').append('<img src="https://imgur.com/IsXodex.jpg">');

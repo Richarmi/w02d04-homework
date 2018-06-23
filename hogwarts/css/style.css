@@ -1,3 +1,9 @@
 body {
   background-color: #F8F7FF; /*or any color of your choosing*/
+  text-align: center;
+}
+
+.cat{
+  text-align: center;
+  font-family: fantasy;
 }
