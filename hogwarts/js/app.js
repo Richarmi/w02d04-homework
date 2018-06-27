@@ -7,7 +7,7 @@
 
 $(() => {
 	// put jQuery in here
-});
+
 
 $container = $('#container');
 console.log($container);
@@ -26,8 +26,18 @@ $('body').append('<h3>Gryffindor</h3>');
 $('body').append('<h4 class="cat">Bentley</h4>');
 
 $('body').append('<img src="https://imgur.com/IsXodex.jpg">');
+$('img').remove();
+$('body').append('<img src="https://imgur.com/IsXodex.jpg"><br><h2>This is a new Wand</h2>');
+
 
 let $trunk = $('#trunk');
 
 $container.append($trunk);
+$('.edible').remove();
+
 console.log($container);
+
+$('.cat').remove();
+$('body').appendTo('<h4 class="cat">Bentley</h4>');
+
+});

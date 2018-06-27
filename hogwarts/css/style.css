@@ -15,6 +15,7 @@ body {
 table {
   border: 1 px solid;
   text-align: center;
+  margin: auto;
 }
 
 th {
