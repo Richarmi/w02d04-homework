@@ -30,14 +30,21 @@ $('img').remove();
 $('body').append('<img src="https://imgur.com/IsXodex.jpg"><br><h2>This is a new Wand</h2>');
 
 
-let $trunk = $('#trunk');
+ let $trunk = $('#trunk');
+//
+ $container.append($trunk);
+ $('.edible').remove();
+//
+// console.log($container);
+//
+ $('.cat').remove();
+ $('body').append('<h4 class="cat">Bentley</h4>');
 
-$container.append($trunk);
-$('.edible').remove();
+$('.secret').delay(2000).hide('slow');
+$('.secret').delay(2000).show('slow')
 
-console.log($container);
+$('.pet').toggleClass('cabbage');
+$('.cabbage').css("color: chartreuse;");
 
-$('.cat').remove();
-$('body').appendTo('<h4 class="cat">Bentley</h4>');
-
+$('.pet').removeClass('cabbage');
 });
