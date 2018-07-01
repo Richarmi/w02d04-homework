@@ -47,4 +47,8 @@ $('.pet').toggleClass('cabbage');
 $('.cabbage').css("color: chartreuse;");
 
 $('.pet').removeClass('cabbage');
+
+$('h5').text("Fall 2018");
+
+$trunk.attr('id', 'chest');
 });
